@@ -1,5 +1,7 @@
-
+if(require(moments)==FALSE){install.packages('moments')}
+if(require(ggplot2)==FALSE){install.packages('ggplot2')}
 library(ggplot2)
+library(moments)
 
 gandw=function(obsmean,obsvar)
 {
